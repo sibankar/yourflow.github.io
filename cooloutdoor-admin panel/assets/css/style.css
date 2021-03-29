@@ -20987,7 +20987,7 @@ span.badge {
 .card .body {
 	font-size: 14px;
 	color: #555;
-	padding: 15px
+	padding: 25px
 }
 
 .card .body .col-xs-1,
@@ -23299,12 +23299,11 @@ html.ie11 .bs-searchbox .form-control {
     padding: 3px;
    
 }
-.order-dt p:nth-child(1) {
-    width: 20%;
+.date {
+    width: 200px;
   }
-  .order-dt div{
-      width: 20%;
-     
+  .order-dt div p{
+      width: 30px;
   }
   .section-card select{
       display: block;
@@ -23312,4 +23311,43 @@ html.ie11 .bs-searchbox .form-control {
   }
   .blue-text{
       color: #007bff;
+  }
+  .inline-input input{
+	  width: 40% !important;
+	  background-color: #fff;
+	  padding: 5px !important;
+	  height: unset !important;
+	  border: 1px solid #ebebeb !important;
+  }
+  .inline-input label{
+	  width: 110px;
+	  padding: 5px;
+  }
+  .inline-input{
+	display: inline-flex;
+	width: 100%;
+  }
+  .inline-input span{
+	padding: 5px;
+	width: 200px;
+  }
+  .schedule-sale{
+	color: #2aa0fe;
+  }
+  .semi-category{
+	  margin-left: 15px;
+  }
+  @media (max-width:991px){
+	.inline-input{
+		display: block;
+		width: 100%;
+	  }
+	  .inline-input label{
+		width: 100%;
+		
+	}
+	.inline-input input{
+		width: 80% !important;
+		
+	}
   }

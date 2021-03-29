@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>Cool Outdoor</title>
+    <title>Add ProductCool Outdoor</title>
     <!-- Favicon-->
     <link rel="icon" href="assets/images/favicon/favicon.png" type="image/x-icon">
     <!-- Plugins Core Css -->
@@ -15,6 +15,8 @@
     <link href="assets/css/style.css" rel="stylesheet" />
     <!-- Theme style. You can choose a theme from css/themes instead of get all themes -->
     <link href="assets/css/styles/all-themes.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+    
     <style>
         .table {
             background-color: #fff;
@@ -307,115 +309,207 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 mt-3">
-                    <h1 class="pagettl">Orders</h1>
+                    <h1 class="pagettl">Add Product</h1>
                     <ul class="topbtns">
-                        <li><a href="#" class="btn btn-mod-sq">Delete Order</a></li>
-                        <li><a href="#" class="btn btn-mod-sq">Download Invoice</a></li>
+                        <li><a href="#" class="btn btn-mod-sq">CSV</a></li>
+                        
                     </ul>
                 </div> 
             </div>
             <div class="row">
-                <div class="col-md-8">
-                    <div class="card"> 
-                        <div class="body">
-                            <div class="body">
-                                <div class="section_card">
-                                    <h5 class="m-b-20">Order #A24532 Details</h5>
-                                <p class="m-b-20">Payment via direct bank transfer,on 20.02.2021-08:53 a.m</p>
-                                <p>Customer IP: 91.23.54.11</p> 
-                                </div>
-                                <div class="section-card">
-                                    <h6>Order Date</h6>
-                                    <div class="order-dt">
-                                        <p>20.02.2021</p>
-                                        <span>@</span>
-                                        <div class="d-flex">
-                                            <p>08</p>
-                                            <span>:</span>
-                                            <p>53</p>
-                                        </div>
-                                    </div>
-                                    <form action="">
-                                        <label for=""><h6>Order Status</h6> </label>
-                                        <select name="" id="">
-                                            <option value="">On Hold</option>
-                                        </select>
-                                        <label for=""><h6> Customer</h6></label>
-                                        <select name="" id="">
-                                            <option value="">On Hold</option>
-                                        </select>
-                                    </form>
-                                </div>
-                                <div class="section-card">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <p>hhhhhh</p>
-                                        </div>
-                                        <div class="col-6">
-                                            <p>gggggg</p>
-                                        </div>
-                                    </div>
-                                </div>
-                               
+                <div class="col-md-6">
+                   
+                                <form method="post">
+                                    <textarea id="summernote" name="editordata"></textarea>
+                                  </form>
 
+                    <div class="card">
+                        <div class="header">
+                            <h2>Product Data</h2>
+                            
+                        </div>
+                        <div class="body">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation">
+                                    <a href="#General" data-toggle="tab" class="show active">
+                                        General
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#Inventory" data-toggle="tab" class="">
+                                        Inventory
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#Sipping" data-toggle="tab" class="">
+                                        Sipping
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#Attributes" data-toggle="tab" class="">
+                                        Attributes
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#Variations" data-toggle="tab" class="">
+                                        Variations
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#Advanced" data-toggle="tab" class="">
+                                        Advanced
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade in active show" id="General">
+                                    <form action="">
+                                        <div class="inline-input">
+                                            <label for="">Regular price</label>
+                                        <input type="text" placeholder="$200.00">
+                                        <span></span>
+                                        </div>
+                                        <div class="inline-input">
+                                            <label for="">Sale price</label>
+                                        <input type="text" placeholder="$180.00">
+                                        <span class="schedule-sale">Schedule Sale</span>
+                                        </div>
+                                        <div class="inline-input">
+                                            <label for="">Tax status</label>
+                                        <input type="text" placeholder="Taxable">
+                                        <span><i class="fas fa-exclamation"></i></span>
+                                        </div>
+                                        <div class="inline-input">
+                                            <label for="">Tax class</label>
+                                        <input type="text" placeholder="Standard">
+                                        <span><i class="fas fa-exclamation"></i></span>
+                                        </div>
+                                        
+                                    </form>
+                                    
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="Inventory">
+                                    <b>Profile Content</b>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, ut duo atqui exerci dicunt, ius impedit
+                                        mediocritatem an. Pri ut tation electram moderatius.
+                                        Per te suavitate democritum. Duis nemore probatus ne quo, ad liber essent
+                                        aliquid
+                                        pro. Et eos nusquam accumsan, vide mentitum fabellas ne est, eu munere
+                                        gubergren
+                                        sadipscing mel.
+                                    </p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="Sipping">
+                                    <b>Message Content</b>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, ut duo atqui exerci dicunt, ius impedit
+                                        mediocritatem an. Pri ut tation electram moderatius.
+                                        Per te suavitate democritum. Duis nemore probatus ne quo, ad liber essent
+                                        aliquid
+                                        pro. Et eos nusquam accumsan, vide mentitum fabellas ne est, eu munere
+                                        gubergren
+                                        sadipscing mel.
+                                    </p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="Attributes">
+                                    <b>Settings Content</b>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, ut duo atqui exerci dicunt, ius impedit
+                                        mediocritatem an. Pri ut tation electram moderatius.
+                                        Per te suavitate democritum. Duis nemore probatus ne quo, ad liber essent
+                                        aliquid
+                                        pro. Et eos nusquam accumsan, vide mentitum fabellas ne est, eu munere
+                                        gubergren
+                                        sadipscing mel.
+                                    </p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="Variations">
+                                    <b>Settings Content</b>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, ut duo atqui exerci dicunt, ius impedit
+                                        mediocritatem an. Pri ut tation electram moderatius.
+                                        Per te suavitate democritum. Duis nemore probatus ne quo, ad liber essent
+                                        aliquid
+                                        pro. Et eos nusquam accumsan, vide mentitum fabellas ne est, eu munere
+                                        gubergren
+                                        sadipscing mel.
+                                    </p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="Advanced">
+                                    <b>Settings Content</b>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, ut duo atqui exerci dicunt, ius impedit
+                                        mediocritatem an. Pri ut tation electram moderatius.
+                                        Per te suavitate democritum. Duis nemore probatus ne quo, ad liber essent
+                                        aliquid
+                                        pro. Et eos nusquam accumsan, vide mentitum fabellas ne est, eu munere
+                                        gubergren
+                                        sadipscing mel.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="card"> 
-                        <div class="body">
-                            <div class="body text-center">
-                                <h4 class="m-b-20">Total Visitors</h4>
-                                <h6 class="m-b-20">5,98,345</h6> 
+                        
+                            <div class="body">
+                               <h2>Product Category</h2>
+                               <label>
+                                <input type="checkbox" class="filled-in" checked="checked">
+                                <span>Shirts</span>
+                            </label>
+                               <ul class="semi-category">
+                                   <li><p>
+                                    <label>
+                                        <input type="checkbox" class="filled-in">
+                                        <span>Unisex T-shirts</span>
+                                    </label>
+                                </p></li>
+                                   <li><p>
+                                    <label>
+                                        <input type="checkbox" class="filled-in" checked="checked">
+                                        <span>Shirts</span>
+                                    </label>
+                                </p></li>
+                                   <li><p>
+                                    <label>
+                                        <input type="checkbox" class="filled-in">
+                                        <span>Jeans</span>
+                                    </label>
+                                </p></li>
+                               </ul>
+
+                               <h2>Product Tags</h2>
+                               <div class="d-flex">
+                               
+                            <input type="text" placeholder="">
+                            <a href="#" class="btn btn-mod-sq">Add</a>
                             </div>
+                            <em>Separate tags by Comma</em>
+                            </div>
+                        
+                    </div>
+                    <div class="card">
+                        <div class="body">
+                            <h3>Product Image</h3>
+                            <a href="">Add product main image</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="body">
+                            <h3>Product Gallery Image</h3>
+                            <a href="">Add product image</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div>
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>FIRST NAME</th>
-                            <th>LAST NAME</th>
-                            <th>USERNAME</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">4</th>
-                            <td>Larry</td>
-                            <td>Jellybean</td>
-                            <td>@lajelly</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">5</th>
-                            <td>Larry</td>
-                            <td>Kikat</td>
-                            <td>@lakitkat</td>
-                        </tr>
-                    </tbody>
-                </table>
+                
             </div>
         </div>
     </section>
@@ -429,6 +523,21 @@
     <script src="assets/js/bundles/amcharts4/charts.js"></script>
     <script src="assets/js/bundles/amcharts4/animated.js"></script>
     <script src="assets/js/pages/index.js"></script>
-    
-    
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+    <script>
+      $('#summernote').summernote({
+        placeholder: 'Hello stand alone ui',
+        tabsize: 2,
+        height: 120,
+        toolbar: [
+          ['style', ['style']],
+          ['font', ['bold', 'underline', 'clear']],
+          ['color', ['color']],
+          ['para', ['ul', 'ol', 'paragraph']],
+          ['table', ['table']],
+          ['insert', ['link', 'picture', 'video']],
+          ['view', ['fullscreen', 'codeview', 'help']]
+        ]
+      });
+    </script>
 </body>

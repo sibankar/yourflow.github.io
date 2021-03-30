@@ -19074,7 +19074,7 @@ tr.group:hover {
 .tableBody {
 	font-size: 13px;
 	color: #555;
-	padding: 0 15px 0 15px
+	
 }
 
 .tbl-checkbox {
@@ -23169,7 +23169,7 @@ html.ie11 .bs-searchbox .form-control {
 
 .recentorderdash .table-img img {
 	border-radius: 0;
-	with: 80px;
+	width: 80px;
 	height: 80px;
 }
 
@@ -23318,7 +23318,9 @@ html.ie11 .bs-searchbox .form-control {
 	  padding: 5px !important;
 	  height: unset !important;
 	  border: 1px solid #ebebeb !important;
+	  margin-right: 10px !important;
   }
+ 
   .inline-input label{
 	  width: 110px;
 	  padding: 5px;
@@ -23350,4 +23352,63 @@ html.ie11 .bs-searchbox .form-control {
 		width: 80% !important;
 		
 	}
+	
   }
+  .address-title{
+	  display: flex;
+	  margin: 30px 0 15px;
+  }
+  .address-title span{
+	  padding-left: 10px;
+  }
+  .add-body p{
+margin-bottom: 0 !important ;
+  }
+  .add-body{
+	  margin-bottom: 15px;
+  }
+  .added-on{
+	  display: flex;
+	  float: right;
+  }
+  .added-on a{
+	  color: red;
+	  padding-left: 5px;
+  }
+  .order-note{
+	  background-color: #ebebeb;
+	  font-weight: bold;
+	  padding: 15px 15px 5px;
+	  border: 1px solid #bbbbbb;
+	
+  }
+  .order-note-single{
+	margin-bottom: 40px;
+  }
+  .add-note a{
+	float: right;
+  }
+  .action i{
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%);
+    padding: 5px;
+    background-color: #fff;
+    margin: 5px;
+}
+.table td p{
+	margin-bottom: 0 !important;
+}
+.via{
+	color: #bbbbbb;
+}
+.show-individually{
+	width: 100%;
+}
+.inline-input-select {
+	display: flex;
+}
+.inline-input-select select{
+display: block;
+
+min-width: 84%;
+   
+}

@@ -18,8 +18,9 @@
     <style>
         .table {
             background-color: #fff;
-            margin: 15px;
+            margin: 15px 0;
         }
+       
     </style>
 
 </head>
@@ -315,7 +316,7 @@
                 </div> 
             </div>
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-7">
                     <div class="card"> 
                         <div class="body">
                             <div class="body">
@@ -348,11 +349,47 @@
                                 </div>
                                 <div class="section-card">
                                     <div class="row">
-                                        <div class="col-6">
-                                            <p>hhhhhh</p>
+                                        <div class="col-md-6">
+                                            <div class="address-title d-flex">
+                                                <h6>Billing Dtails</h6>
+                                                <span><i class="fas fa-pencil-alt"></i></span>
+                                            </div>
+                                            <div class="add-body">
+                                                <p>0001,some place</p>
+                                                <p>street</p>
+                                                <p>district</p>
+                                                <p>country</p>
+                                                <p>zip code</p>
+                                            </div>
+                                            <div class="add-body">
+                                                <p>Email:</p>
+                                                <p>someone@gmail.com</p>
+                                            </div>
+                                            <div class="add-body">
+                                                <p>Phone:</p>
+                                                <p>2136547895</p>
+                                            </div>
                                         </div>
-                                        <div class="col-6">
-                                            <p>gggggg</p>
+                                        <div class="col-md-6">
+                                            <div class="address-title d-flex">
+                                                <h6>Shipping Dtails</h6>
+                                                <span><i class="fas fa-pencil-alt"></i></span>
+                                            </div>
+                                            <div class="add-body">
+                                                <p>0001,some place</p>
+                                                <p>street</p>
+                                                <p>district</p>
+                                                <p>country</p>
+                                                <p>zip code</p>
+                                            </div>
+                                            <div class="add-body">
+                                                <p>Email:</p>
+                                                <p>someone@gmail.com</p>
+                                            </div>
+                                            <div class="add-body">
+                                                <p>Phone:</p>
+                                                <p>2136547895</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -362,60 +399,190 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <div class="card"> 
-                        <div class="body">
-                            <div class="body text-center">
-                                <h4 class="m-b-20">Total Visitors</h4>
-                                <h6 class="m-b-20">5,98,345</h6> 
+                        
+                            <div class="body">
+                                <h5 class="m-b-20">Order Notes</h5> 
+                                <div class="order-note-single">
+                                    <div class="order-note">
+                                        <p>Order item stock reduced successfully</p>
+                                    </div>
+                                    <div class="added-on">
+                                        <p>Added on <span>20.01.2021</span>at <span>10:00a.m</span></p>
+                                        <a href="">Delete note</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="order-note-single">
+                                    <div class="order-note">
+                                        <p>Order item stock reduced successfully</p>
+                                    </div>
+                                    <div class="added-on">
+                                        <p>Added on <span>20.01.2021</span>at <span>10:00a.m</span></p>
+                                        <a href="">Delete note</a>
+                                    </div>
+                                </div>
+                                <div class="add-note">
+                                    <h5 class="m-b-20">Add Note</h5> 
+                                    <textarea name="" id="" cols="60" rows="60"></textarea>
+                                    <a href="#" class="btn btn-mod-sq">SUBMIT</a>
+                                </div>
+                               
                             </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
             <div>
+                <div class="tableBody">
+                    <div class="table-responsive">
                 <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th>#</th>
-                            <th>FIRST NAME</th>
-                            <th>LAST NAME</th>
-                            <th>USERNAME</th>
+                            <th>Image</th>
+                            <th>Item Name</th>
+                            <th>Billing Address</th>
+                            <th>Shipping Address</th>
+                            <th>Price</th>
+                            <th>Shipping Price</th>
+                            <th>Price</th>
+                            <th>Status</th>
+                            <th></th>
+                            
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
+                            <td><img src="assets/images/usrbig.jpg" alt="" width="80"></td>
+                            <td>
+                                item name
+                            </td>
+                            <td>
+                                <p>0001,some place</p>
+                                                <p>street</p>
+                                                <p>district</p>
+                                                <p>country</p>
+                                                <p>zip code</p>
+                            </td>
+                            <td>
+                                <p>0001,some place</p>
+                                <p>street</p>
+                                <p>district</p>
+                                <p>country</p>
+                                <p>zip code</p>
+                            </td>
+                            <td><p>$400.00x1</p> <p class="via">Via direct Bank Transfer</p></td>
+                            <td>$40.00</td>
+                            <td>$400.00</td>
+                            <td>On Proccessing</td>
+                            <td class="text-center"><i class="fas fa-trash-alt"></i></td>
                         </tr>
                         <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
+                            <td><img src="assets/images/usrbig.jpg" alt="" width="80"></td>
+                            <td>
+                                item name
+                            </td>
+                            <td>
+                                <p>0001,some place</p>
+                                                <p>street</p>
+                                                <p>district</p>
+                                                <p>country</p>
+                                                <p>zip code</p>
+                                                
+                            </td>
+                            <td>
+                                <p>0001,some place</p>
+                                <p>street</p>
+                                <p>district</p>
+                                <p>country</p>
+                                <p>zip code</p>
+                            </td>
+                            <td><p>$400.00x1</p> <p class="via">Via direct Bank Transfer</p></td>
+                            <td>$40.00</td>
+                            <td>$400.00</td>
+                            <td>On Proccessing</td>
+                            <td class="text-center"><i class="fas fa-trash-alt"></i></td>
                         </tr>
                         <tr>
-                            <th scope="row">3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
+                            <td><img src="assets/images/usrbig.jpg" alt="" width="80"></td>
+                            <td>
+                                item name
+                            </td>
+                            <td>
+                                <p>0001,some place</p>
+                                                <p>street</p>
+                                                <p>district</p>
+                                                <p>country</p>
+                                                <p>zip code</p>
+                            </td>
+                            <td>
+                                <p>0001,some place</p>
+                                <p>street</p>
+                                <p>district</p>
+                                <p>country</p>
+                                <p>zip code</p>
+                            </td>
+                            <td><p>$400.00x1</p> <p class="via">Via direct Bank Transfer</p></td>
+                            <td>$40.00</td>
+                            <td>$400.00</td>
+                            <td>On Proccessing</td>
+                            <td class="text-center"><i class="fas fa-trash-alt"></i></td>
                         </tr>
                         <tr>
-                            <th scope="row">4</th>
-                            <td>Larry</td>
-                            <td>Jellybean</td>
-                            <td>@lajelly</td>
+                            <td><img src="assets/images/usrbig.jpg" alt="" width="80"></td>
+                            <td>
+                                item name
+                            </td>
+                            <td>
+                                <p>0001,some place</p>
+                                                <p>street</p>
+                                                <p>district</p>
+                                                <p>country</p>
+                                                <p>zip code</p>
+                            </td>
+                            <td>
+                                <p>0001,some place</p>
+                                <p>street</p>
+                                <p>district</p>
+                                <p>country</p>
+                                <p>zip code</p>
+                            </td>
+                            <td><p>$400.00x1</p> <p class="via">Via direct Bank Transfer</p></td>
+                            <td>$40.00</td>
+                            <td>$400.00</td>
+                            <td>On Proccessing</td>
+                            <td class="text-center"><i class="fas fa-trash-alt"></i></td>
                         </tr>
                         <tr>
-                            <th scope="row">5</th>
-                            <td>Larry</td>
-                            <td>Kikat</td>
-                            <td>@lakitkat</td>
+                            <td><img src="assets/images/usrbig.jpg" alt="" width="80"></td>
+                            <td>
+                                item name
+                            </td>
+                            <td>
+                                <p>0001,some place</p>
+                                                <p>street</p>
+                                                <p>district</p>
+                                                <p>country</p>
+                                                <p>zip code</p>
+                            </td>
+                            <td>
+                                <p>0001,some place</p>
+                                <p>street</p>
+                                <p>district</p>
+                                <p>country</p>
+                                <p>zip code</p>
+                            </td>
+                            <td><p>$400.00x1</p> <p class="via">Via direct Bank Transfer</p></td>
+                            <td>$40.00</td>
+                            <td>$400.00</td>
+                            <td>On Proccessing</td>
+                            <td class="text-center"><i class="fas fa-trash-alt"></i></td>
                         </tr>
                     </tbody>
                 </table>
+                </div>
+                </div>
             </div>
         </div>
     </section>
